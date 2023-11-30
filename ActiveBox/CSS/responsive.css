@@ -1,0 +1,59 @@
+@media (min-width: 320px) and (max-width: 575px){
+  .banner_content h4 {
+    font-size: 40px;
+  }
+  .team-content {
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+    margin: 11px 11px;
+  
+  }
+  .img-cont {
+    padding: 100px 90px 75px 90px;
+  
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {   .banner_content h4 {
+  font-size: 45px;
+  } 
+  .team-content {
+    text-align: center;
+    padding: 0px 40px 0px 5px;
+  }
+  .img-cont {
+    padding: 100px 90px 75px 90px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  #team {
+    margin-top: 90px;
+    
+  }
+  .img-cont {
+    padding: 20px 90px 25px 20px;
+  }
+  .img-cont h5 {
+   font-size: 22px;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .img-cont {
+    padding: 16px 90px 26px 20px;
+  }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .img-cont {
+    padding: 16px 90px 26px 20px;
+  }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
